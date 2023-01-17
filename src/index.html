@@ -3,29 +3,19 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <title>Tarjeta de crédito válida</title>
 </head>
 
 <body>
-  <input id="cardnumber"></input>
-  <button onclick="validate()">Validar</button>
-  <div id="result"></div>
-  <script lang="javascript">
-    function validate() {
-      const valid = isValid(document.getElementById("cardnumber").value)
-      if (valid) {
-        // Show success in div#result
-      }
-      else {
-        // Show error message in div#result
-      }
-    }
+  <h1>Valida tu numero de tarjeta</h1>
 
-    function isValid(creditCardNumber){
-      // is creditCardNumber valid?
-      return false
-    }
-  </script>
+  <input id="card-number" type="text" placeholder="Solo números" maxlength="14">
+  <button id="validate-button">Validar</button>
+  <div id="result"></div>
+  <script src="index.js"></script>
+
+
 </body>
 
 </html>

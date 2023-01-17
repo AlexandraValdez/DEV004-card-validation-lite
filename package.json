@@ -30,5 +30,18 @@
     "createdAt": "2023-01-12T12:52:31.473Z",
     "version": "5.5.0",
     "commit": "8945fe217cdd6ce64953e97d55eeee2608ae50a7"
+  },
+  "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Objetivos de aprendizaje generales](#2-objetivos-de-aprendizaje-generales-de-este-proyecto)\r * [3. Consideraciones generales](#3-consideraciones-generales)\r * [4. Criterios de aceptación mínimos del proyecto](#4-criterios-de-aceptación-mínimos-del-proyecto)\r * [5. Consideraciones técnicas](#5-consideraciones-técnicas)\r * [6. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandraValdez/DEV004-card-validation-lite.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/AlexandraValdez/DEV004-card-validation-lite/issues"
+  },
+  "homepage": "https://github.com/AlexandraValdez/DEV004-card-validation-lite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
