@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -10,9 +10,17 @@
 <body>
   <h1>Valida tu numero de tarjeta</h1>
 
-  <input id="card-number" type="text" placeholder="Solo números" autocomplete="off" maxlength="12">
-  <button id="validate-button">Validar</button>
+  <input id="ccNumber" type="text" autocomplete="off" placeholder="Solo números" maxlength="16">
+
+  <input type="button" value="check" onclick="checkCC()"/>
+
+
+<br>
+<br>
+  <textarea id="ccValidator"  rows="3" disable="true"> </textarea>
+
   <div id="result"></div>
+
   <script src="index.js"></script>
 
 

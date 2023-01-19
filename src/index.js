@@ -1,10 +1,15 @@
+
+
+
+
+
 const validateButton = document.getElementById('validate-button');
 validateButton.addEventListener('click',validate);
 const results =  document.getElementById('result');
 
 function validate() {
- const creditCardNumber = document.getElementById('card-number').value;
- console.log(creditCardNumber);
+  const creditCardNumber = document.getElementById('card-number').value;
+  //console.log(creditCardNumber);
 
   const valid = isValid(creditCardNumber);
   if (valid) { 
